@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const actionButton = document.getElementById("action-button");
   const hintText = document.getElementById("hint-text"); // Select the hint text element
 
-  let timeLeft = 600 ; // 10 minutes in seconds
+  let timeLeft = 10 ; // 10 minutes in seconds
 
   // Update the timer function
   function updateTimer() {
