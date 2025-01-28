@@ -47,23 +47,7 @@
 
     <script src="js/index.js"></script>
     <script src="js/countdown.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const searchBox = document.querySelector(".input-search");
-    
-        searchBox.addEventListener("keydown", function (event) {
-          // Check if Enter key is pressed
-          if (event.key === "Enter") {
-            // Redirect if the input value is "link"
-            if (searchBox.value.trim().toLowerCase() === "link") {
-              window.location.href = "answer.html"; // Replace with your target page URL
-            } else {
-              alert("Not the correct answer!"); // Optional feedback
-            }
-          }
-        });
-      });
-    </script>
+    <script src="js/search.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const actionButton = document.getElementById("action-button");
